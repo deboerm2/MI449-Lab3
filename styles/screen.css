@@ -1,6 +1,6 @@
 body {
     font-family: Helvetica, sans-serif;
-    color: #EAE8FF;
+    color: rgb(242, 242, 242);
     background: #2D3142;
     padding: 0 40px;
     text-align: center;
@@ -8,7 +8,7 @@ body {
 
 nav {
     margin: 40px auto 0 auto;
-    width: 250px;
+    width: 500px;
     border-radius: 50px;
     background: #212431;
 }
@@ -28,14 +28,20 @@ nav ul li {
 nav ul li a {
     display: inline-block;
     padding: 20px;
-    color: #EAE8FF;
+    color: #ababab;
     text-decoration: none;
     font-size: 1.2em;
 }
+nav ul li a:hover {
+color: rgb(216, 216, 216);
+}
 
 h1 {
-    font-size: 8em;
+    font-size: 6em;
     letter-spacing: -2px;
+}
+h2{
+    font-size: 4em;
 }
 
 h1 strong {
@@ -47,4 +53,43 @@ h1 strong {
 
 img.about {
     opacity: 0.5;
+}
+a{
+    text-decoration: none;
+    color: rgb(242, 242, 242);
+}
+
+
+#previews{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+div.preview{
+    
+}
+div.preview_title{
+    font-size: 4ex;
+    margin-bottom: 1ex;
+    background: rgb(34,193,195);
+    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#return{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    
+    color: #ababab;
+    text-decoration: none;
+    font-size: 1.2em;
+
+    justify-content: space-evenly;
+
+    margin: 40px auto 0 auto;
+    width: 170px;
+    border-radius: 100px;
+    background: #212431;
 }
