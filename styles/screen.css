@@ -1,8 +1,8 @@
 body {
     font-family: Helvetica, sans-serif;
     color: rgb(242, 242, 242);
-    background: #2D3142;
-    padding: 0 40px;
+    background: #9591c9;
+    padding: 0 300px;
     text-align: center;
 }
 
@@ -10,7 +10,7 @@ nav {
     margin: 40px auto 0 auto;
     width: 500px;
     border-radius: 50px;
-    background: #212431;
+    background: #390042;
 }
 
 nav ul {
@@ -33,22 +33,25 @@ nav ul li a {
     font-size: 1.2em;
 }
 nav ul li a:hover {
-color: rgb(216, 216, 216);
+color: rgb(237, 237, 237);
 }
 
 h1 {
-    font-size: 6em;
+    font-size: 5.5em;
     letter-spacing: -2px;
 }
 h2{
     font-size: 4em;
 }
 
-h1 strong {
-    background: rgb(34,193,195);
-    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+p{
+    font-size: 14pt;
+    letter-spacing: 0.5px;
+    padding: 2em;
+    text-align: left;
+    text-indent: 2em;
+    background: #827fb0;
+    border-radius: 25px;
 }
 
 img.about {
@@ -63,21 +66,27 @@ a{
 #previews{
     display:flex;
     justify-content: space-evenly;
+    
 }
 
 div.preview{
-    
+    background-color: #390042;
+    border-radius: 50px;
+    padding: 5ex;
+}
+div.preview:hover{
+    background-color: #53005e;
 }
 div.preview_title{
     font-size: 4ex;
     margin-bottom: 1ex;
     background: rgb(34,193,195);
-    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: linear-gradient(45deg, rgb(198, 6, 242) 0%, rgb(223, 9, 38) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-#return{
+#return a{
     padding-top: 20px;
     padding-bottom: 20px;
     display: inline-block;
@@ -88,8 +97,11 @@ div.preview_title{
 
     justify-content: space-evenly;
 
-    margin: 40px auto 0 auto;
+    margin: 40px;
     width: 170px;
     border-radius: 100px;
-    background: #212431;
+    background: #390042;
+}
+#return a:hover{
+    color: rgb(237, 237, 237);
 }

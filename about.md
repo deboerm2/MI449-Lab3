@@ -3,5 +3,5 @@ layout: layout.liquid
 title: About
 ---
 
-# About the 11ty **Boilerplate**
-<img class="about" alt="pine" src="/images/pine.png" width="50" />
+# About the Blogs
+This is a place where I write down my experiences while travelling the Galaxy. I plan to write about cool finds, impart travel tips I've learned, and generally write about my experiences as a galactic traveller.
